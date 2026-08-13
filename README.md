@@ -1,120 +1,99 @@
-# # Capstone Project
+##Capstone Project
 
-## Project Overview
+##Introduction:
 
-This repository contains three modules developed as part of the capstone project:
+->This repository contains the work completed for the capstone project. The project is divided into three modules:
 
-1. Data Pipeline
-2. Analytics
+1. Analytics Pipeline
+2. Data Pipeline
 3. Support Assistant
 
-Each module is organized in its own folder with the required code, documentation, and supporting files.
+->Each module has its own folder and README file.
 
----
+Project Structure
 
-## Repository Structure
+capstone_project/
 
-```
-capstone-project/
-│
-├── README.md
-├── data_pipeline/
-├── analytics/
-└── support_assistant/
-```
+analytics_pipeline/
+    README.md
+    Project files
 
----
+data_pipeline/
+    README.md
+    Project files
 
-## Setup Instructions
+support_assistant/
+    README.md
+    Project files
 
-### 1. Clone the repository
+README.md
+requirements.txt
 
-```bash
-git clone <your-github-repository-link>
-cd capstone-project
-```
+##Analytics Pipeline:
 
-### 2. Install dependencies
+->The Analytics Pipeline module is used for data analysis and machine learning.
 
-Install the required Python packages.
+->The main steps include preparing the data, performing analysis, building machine learning models, checking the model results, and saving the required output files.
 
-If using one requirements file:
+->The files related to this module are available in the analytics_pipeline folder.
 
-```bash
+##Data Pipeline:
+
+->The Data Pipeline module is used to collect, clean, transform, and process data.
+
+->The processed data is prepared in a suitable format for further analysis and other tasks in the project.
+
+->The files related to this module are available in the data_pipeline folder.
+
+##Support Assistant:
+
+->The Support Assistant module is used to answer questions based on the available support documents.
+
+->The module retrieves relevant information from the documents and uses it to provide answers to user questions.
+
+->The files related to this module are available in the support_assistant folder.
+
+##Requirements:
+
+->The required Python packages are listed in the requirements.txt file.
+
+Install the packages using:
+
 pip install -r requirements.txt
-```
 
-If using module-wise requirements:
+##Running the Project:
 
-```bash
-pip install -r data_pipeline/requirements.txt
-pip install -r analytics/requirements.txt
-pip install -r support_assistant/requirements.txt
-```
+For each module, open its folder and follow the instructions provided in its README file.
 
----
+Analytics Pipeline:
+Open the analytics_pipeline folder and run the required notebook or Python files.
 
-## How to Run Each Module
+Data Pipeline:
+Open the data_pipeline folder and run the required notebook or Python files.
 
-### Data Pipeline
+Support Assistant:
+Open the support_assistant folder and run the required Python files or application.
 
-1. Open the `data_pipeline` folder.
-2. Run the notebook or Python script.
-3. The pipeline loads data, processes it, and saves the cleaned output.
+##Technologies Used:
 
----
+Python
 
-### Analytics
+Pandas
 
-1. Open the `analytics` folder.
-2. Run the notebook or Python script.
-3. The module trains the machine learning model, evaluates performance, and saves the trained model.
+NumPy
 
----
+Scikit-learn
 
-### Support Assistant
+SQL
 
-1. Open the `support_assistant` folder.
-2. Install the required packages.
-3. Run the application.
-4. The assistant loads the knowledge base and answers user questions using Retrieval-Augmented Generation (RAG).
+Jupyter Notebook
 
----
+ChromaDB
 
-## Design Decisions
+Sentence Transformers
 
-### Data Pipeline
+LangChain
 
-- Data cleaning and preprocessing were performed before analysis.
-- SQL and Pandas were used for data transformation.
+##Repository:
 
-### Analytics
-
-- Machine learning models were trained and evaluated.
-- The best-performing model was selected and saved.
-
-### Support Assistant
-
-- ChromaDB was used as the vector database.
-- Sentence Transformers were used for embeddings.
-- Retrieval-Augmented Generation (RAG) was implemented to answer user queries.
-
----
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- SQLite
-- ChromaDB
-- Sentence Transformers
-- Jupyter Notebook
-
----
-
-## Author
-
-Ramya Korrapati
-Final repository update
+The repository contains all three modules and their respective files and documentation.
